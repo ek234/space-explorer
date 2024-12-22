@@ -22,6 +22,7 @@ function M.transform_ship2uni(ship_pos_uni_frame, pos_offset_wrt_ship)
 end
 
 function M.transform_uni2ship(ship_pos_uni_frame, ship_pos_screen_frame, pos_universe)
+	-- TODO : encorporate length contraction
 	-- TODO : check if i dont need to draw it is it is outside the screen
 	local cst = math.cos(ship_pos_uni_frame.angle)
 	local snt = math.sin(ship_pos_uni_frame.angle)
