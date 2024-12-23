@@ -33,8 +33,8 @@ function love.load()
 		y = particle_sprite:getHeight() / 2,
 	}, { 0.9, 0.9, 0.9, 1, 0.1, 0.1, 0.1, 0 })
 
-	Entity.make_entity(1000, { x = 500, y = -300 }, { x = 20, y = 0 }, 4)
-	-- Entity.make_entity(300, { x = -500, y = 0 }, { x = 0, y = -20 }, 1)
+	Entity.make_entity(300, { x = 500, y = 0 }, { x = 0, y = 50 }, 1)
+	Entity.make_entity(300, { x = -500, y = 0 }, { x = 0, y = -50 }, 1)
 end
 
 function love.draw()

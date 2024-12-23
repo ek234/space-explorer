@@ -3,6 +3,7 @@ local M = {}
 
 M.unpack = table.unpack or unpack -- 5.1 compatibility
 M.atan = math.atan2 or math.atan -- 5.1 compatibility
+print(math.atan(1, 0) / math.pi)
 
 function M.safe_div(a, b)
 	if b == 0 then
